@@ -60,11 +60,11 @@
 
 /* Home */
 .section-default {
-  @apply max-w-screen-xl mx-auto px-5 py-10 sm:px-12 sm:py-20;
+  @apply max-w-screen-xl mx-auto px-5 py-8 sm:px-12 sm:py-20;
 }
 
 .section-2col {
-  @apply grid grid-cols-1 sm:grid-cols-2 gap-10 items-center;
+  @apply grid grid-cols-1 sm:grid-cols-2 gap-8 items-center;
 }
 
 /* === TIPOGRAFIA === */
