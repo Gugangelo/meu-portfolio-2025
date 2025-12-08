@@ -120,7 +120,7 @@
 /* Imagens laterais */
 .about-image {
   @apply rounded-tr-4xl rounded-bl-4xl border-2 border-blue-500
-         w-50 h-50 sm:w-75 sm:h-75 object-cover;
+         w-50 h-50 sm:w-70 sm:h-70 object-cover;
 }
 
 .section-3col {

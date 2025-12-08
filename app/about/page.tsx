@@ -5,7 +5,7 @@ import TechCarousel from '@/components/TechMarquee'
 const AboutMe = () => {
   return (
     <>
-      <section className="max-w-screen-xl mx-auto px-5 py-6 section-2col-about">
+      <section className="max-w-screen-xl mx-auto px-5 py-4 section-2col-about">
 
         {/* TEXTOS */}
         <div className="about-text">
