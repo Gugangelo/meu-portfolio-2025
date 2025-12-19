@@ -52,7 +52,7 @@ const AboutMe = () => {
             className="about-image"
           />
           <Image
-            src="/Foto_Gustavo_Padrao.png"
+            src="/20251216_123911.jpg"
             alt="FEJECE 2024"
             width={300}
             height={300}

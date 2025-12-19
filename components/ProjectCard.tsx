@@ -41,7 +41,7 @@ const ProjectCard = ({
   tags
 }: ProjectCardProps) => {
   return (
-    <div className='bg-white rounded-2xl flex flex-col min-h-115 p-5 w-full max-w-100'>
+    <div className='bg-white rounded-2xl flex flex-col min-h-115 p-4 w-full max-w-100'>
       <div className="relative h-40 mb-2 rounded-xl overflow-hidden">
         <Image
           src={image}
@@ -71,10 +71,10 @@ const ProjectCard = ({
       </div>
       
       <div className='flex justify-around flex-row gap-2 mt-4'>
-        <Link href={previewUrl} className="btn btn-responsive">
+        <Link target='_blank' href={previewUrl} className="btn btn-responsive">
           <VscGithubAlt /> Código Fonte
         </Link>
-        <Link href={deployUrl} className="btn btn-responsive">
+        <Link target='_blank' href={deployUrl} className="btn btn-responsive">
           <FiExternalLink /> Prévia
         </Link>
       </div>
