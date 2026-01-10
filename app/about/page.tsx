@@ -45,7 +45,7 @@ const AboutMe = () => {
         {/* IMAGENS */}
         <div className="flex flex-col items-center gap-8">
           <Image
-            src="/Foto_Gustavo_Padrao.png"
+            src="/DSC_0569.jpg"
             alt="Foto de Gustavo Angelo"
             width={300}
             height={300}
