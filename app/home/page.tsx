@@ -55,7 +55,7 @@ const Home = () => {
 
         {/* BOTÕES */}
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
-          <a href="/CV_GustavoAngelo_R2.pdf" 
+          <a href="/Curriculo_GustavoAngelo (1).pdf" 
             target='_blank'
             rel="noopener noreferrer"
             className="btn btn-responsive">
@@ -63,7 +63,7 @@ const Home = () => {
             Ler CV
           </a>
 
-          <a href="/CV_GustavoAngelo_R2.pdf"
+          <a href="/Curriculo_GustavoAngelo (1).pdf"
             download 
             className="btn btn-responsive">
             <DownloadIcon size={20} />
