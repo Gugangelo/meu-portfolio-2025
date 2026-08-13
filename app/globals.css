@@ -109,12 +109,12 @@
 
 /* Títulos */
 .section-title {
-  @apply text-4xl font-bold mb-5;
+  @apply text-4xl font-bold mb-5 text-white;
 }
 
 /* Parágrafos */
 .section-paragraph {
-  @apply text-base sm:text-lg mb-4;
+  @apply text-base sm:text-lg mb-4 text-white;
 }
 
 /* Imagens laterais */
