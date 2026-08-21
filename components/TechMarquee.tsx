@@ -41,8 +41,8 @@ export default function TechCarousel() {
           const Icon = item.icon;
           return (
             <div key={i} className="flex flex-col items-center">
-              <Icon className="w-16 h-16" />
-              <span className="text-sm mt-2 font-bold">
+              <Icon className="w-16 h-16 p-1 bg-white rounded-2xl" />
+              <span className="text-sm mt-2 font-bold text-white">
                 {item.name}
               </span>
             </div>
